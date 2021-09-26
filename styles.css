@@ -1,0 +1,191 @@
+
+body {
+    margin: 0;
+    font-family: consolas, sans-serif;
+    background: #E6E6E6;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 40px;
+    z-index: 2;
+    background: #334756;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 8px;
+}
+
+#fixed .container .logo {
+    width: 80%;
+    display: flex;
+    float: left;
+}
+
+#fixed .container .logo img {
+    width: 60px;
+    object-fit: contain;
+}
+
+#fixed .container .logo .logo-title {
+    color: white;
+    margin-left: 1rem;
+}
+
+#fixed .container .menu {
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+
+#fixed .container .menu ul {
+    float: right; 
+    margin: 0 auto;
+}
+
+#fixed .container .menu ul li {
+    float: left; 
+    list-style: none;
+    padding: 0 1rem;
+}
+
+#fixed .container .menu ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    float: right;
+    padding-right: 1rem;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    padding-left: 1rem;
+}
+
+.list .article {
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 1rem;
+}
+
+.list .article .content-article {
+    width: 80%;
+    float: left;
+
+}
+
+.list .article .content-article .title-article {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.list .article .content-article .description-article {
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 1rem;
+}
+
+.list .article .image-article {
+    width: 20%;
+    float: left;
+}
+
+.list .article .image-article img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.list-reading {
+    width: 100%;
+    position: sticky;
+    top: 100px;
+}
+
+.list-reading .reading {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.list-reading .reading-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+
+.detail-article {
+    width: 100%;
+}
+
+.detail-article .title-article {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.detail-article .article {
+    margin-bottom: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.video {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.gambar .cover img {
+    width: 86%;
+    
+}
+
+.video .cover img {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video .overlay img {
+    width: 100px;
+    height: 100px;
+}
+
+.video .overlay .article-title {
+    padding: 1rem
+}
+
+.video .overlay .article-title a {
+    text-decoration: none;
+	font-size: 24px;
+	color: white;
+	font-weight: 600;
+}
